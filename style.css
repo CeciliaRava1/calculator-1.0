@@ -1,0 +1,14 @@
+body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: "Alegreya Sans", sans-serif;
+    color: #E6FFFD;
+    background-color: #E6FFFD;
+}
+
+.title{
+    padding: 8px;
+    font-size: 54px;
+    background-color: #B799FF;
+}
