@@ -37,14 +37,15 @@ body {
 
 /* Calculator buttons */
 button{
-    width: 90px;
-    height: 90px;
-    margin: 6px;
-    font-size: 40px;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    font-size: 30px;
+    border-radius: 50px;
 }
 
 .big-button{
-    width: 198px;
+    width: 180px;
 
 }
 
@@ -56,7 +57,8 @@ button{
     margin: 50px 720px;
     background-color: #AEE2FF;
     padding-top: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
+    border-radius: 30px;
 }
 
 
@@ -72,9 +74,10 @@ button{
     height: 100px;
     padding: 10px;
     font-size: 30px; 
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     word-wrap: break-word;
     word-break: break-all;
+    border-radius: 20px;
 }
 
 .output .current-operand {
