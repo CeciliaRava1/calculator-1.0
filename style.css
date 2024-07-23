@@ -8,7 +8,7 @@ body {
 }
 
 /* Navbar section */
-.title{
+.title {
     padding: 8px;
     font-size: 46px;
     background-color: #B799FF;
@@ -31,12 +31,12 @@ body {
     margin-right: 10px;
 }
 
-.fa-brands{
+.fa-brands {
     padding-top: 10px;
 }
 
 /* Calculator buttons */
-button{
+button {
     width: 80px;
     height: 80px;
     margin: 10px;
@@ -46,11 +46,26 @@ button{
     color: #E6FFFD;
     border: 0px;
     box-shadow: #946cf3 -5px -5px 10px 0px inset;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border: none;
 }
 
-.big-button{
+.big-button {
     width: 180px;
 
+}
+
+button:hover {
+    background-color: #a581f8
+}
+
+button:active {
+    box-shadow: 0 2px #946cf3;
+    transform: translateY(1px);
 }
 
 /* Calculator structure */
@@ -75,21 +90,19 @@ button{
     align-items: flex-end;
     justify-content: space-around;
     background-color: #4140408b;
-    color: #ffffff; 
+    color: #ffffff;
     width: 365px;
     height: 100px;
     padding: 10px;
-    font-size: 30px; 
+    font-size: 30px;
     margin-bottom: 20px;
     word-wrap: break-word;
     word-break: break-all;
     border-radius: 20px;
-    box-shadow: #5e5c5c8b -5px -5px 10px 0px inset;
+    box-shadow: #3837378b -5px -5px 10px 0px inset;
 }
 
 .output .current-operand {
     color: #ffffff;
     font-size: 45px;
 }
-
-
