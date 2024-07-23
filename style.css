@@ -40,8 +40,12 @@ button{
     width: 80px;
     height: 80px;
     margin: 10px;
-    font-size: 30px;
+    font-size: 32px;
     border-radius: 50px;
+    background-color: #B799FF;
+    color: #E6FFFD;
+    border: 0px;
+    box-shadow: #946cf3 -5px -5px 10px 0px inset;
 }
 
 .big-button{
@@ -57,8 +61,10 @@ button{
     margin: 50px 720px;
     background-color: #AEE2FF;
     padding-top: 30px;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
     border-radius: 30px;
+    box-shadow: #85d2fb -5px -5px 10px 0px inset;
+
 }
 
 
@@ -70,7 +76,7 @@ button{
     justify-content: space-around;
     background-color: #4140408b;
     color: #ffffff; 
-    width: 388px;
+    width: 365px;
     height: 100px;
     padding: 10px;
     font-size: 30px; 
@@ -78,9 +84,12 @@ button{
     word-wrap: break-word;
     word-break: break-all;
     border-radius: 20px;
+    box-shadow: #5e5c5c8b -5px -5px 10px 0px inset;
 }
 
 .output .current-operand {
     color: #ffffff;
     font-size: 45px;
 }
+
+
