@@ -36,11 +36,6 @@ body {
 }
 
 /* Calculator buttons */
-
-.container{
-    margin-top: 200px;
-}
-
 button{
     width: 90px;
     height: 90px;
@@ -51,4 +46,38 @@ button{
 .big-button{
     width: 198px;
 
+}
+
+/* Calculator structure */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 720px;
+    background-color: #AEE2FF;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+
+/* Calculator screen */
+.output {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    background-color: #4140408b;
+    color: #ffffff; 
+    width: 388px;
+    height: 100px;
+    padding: 10px;
+    font-size: 30px; 
+    margin-bottom: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.output .current-operand {
+    color: #ffffff;
+    font-size: 45px;
 }
